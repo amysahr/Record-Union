@@ -1,0 +1,13 @@
+.selecteditem{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    margin-right: 60px;
+}
+
+.selectedname{
+    padding: 0 20px;
+}

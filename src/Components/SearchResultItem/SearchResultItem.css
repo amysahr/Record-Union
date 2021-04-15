@@ -1,0 +1,17 @@
+.resultitem{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    height: 80px;
+}
+
+.resultname{
+    padding: 20px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 0 10px;
+    text-align: center;
+}
+
