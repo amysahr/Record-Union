@@ -8,6 +8,7 @@ import './SearchResultItem.css'
 export default function SearchResultItem({item}) {
     const {selectItem, selectedItemList} = useContext(SearchContext);
 
+    // Check if this item is added before and the list items is less than 5
     const isItemSelectable = () => {
         const filtered = selectedItemList.filter(entry => entry.id === item.id)
         

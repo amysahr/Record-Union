@@ -1,13 +1,25 @@
 .selecteditem{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
-    margin-bottom: 10px;
-    margin-right: 60px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px 20px
 }
 
 .selectedname{
     padding: 0 20px;
+    width: 250px;
+    text-align: center;
+}
+
+h2{
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    h2{
+        margin-left: 20px;
+    }
 }

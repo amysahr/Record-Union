@@ -7,6 +7,7 @@ export default function SelectedItemList() {
 
   return (
     <div>
+      <h2>My List</h2>
       {selectedItemList.length > 0 &&
         selectedItemList.map((item) => {
           return (
